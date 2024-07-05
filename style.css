@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*This * is used to implement the changes to all things
+  Also above line of code are written to get rid of the padding already given by the browsers by default*/
+.container{
+    background-color: #e5e5fd;
+    border: 10px solid #5f5f66;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    /*Margin 0 is for top bottom and auto for aligning in centre from right and left*/
+}
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.top_section h4{
+    text-align: end;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.image_container,img{
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+}
+.about_section{
+    margin-top: 40px;
+}
+.about_section h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.about_section p{
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1.2px;
+}
+.positions_section{
+    margin-top: 20px;
+}
+.positions_section h2{
+    font-size: 30px;
+    font-weight: 550;
+}
+.positions_section li{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+.positions_section ul{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+footer{
+    margin-bottom: 10px;
+}
+footer h4{
+    text-align: end;
+    font-size: 20px;
+}
